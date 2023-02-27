@@ -1,8 +1,8 @@
-#include <iostream.h>
-using namespace;
+#include <iostream>
+using namespace std;
 int main()
 {
-    int n
+    int n;
     cout << "Enter Row Number : ";
     cin >> n;
     for (int i = 1; i <= n; i++)
@@ -17,12 +17,12 @@ int main()
                     k--;
             }
             else {
-                cout<<t<<" " ;
+                cout<<k<<" " ;
                 if(j<n) k++;
                 else if(j>n) k--;   
             }
         }
         cout << "\n";
     }
-    return
+    return 0;
 }
